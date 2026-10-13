@@ -1,0 +1,7 @@
+Model,MAE,RMSE,R2
+Extra Trees,825.49,1020.29,-0.09
+Random Forest,826.02,1013.88,-0.0764
+7-Day Average Baseline,891.17,1073.51,-0.2067
+Same Weekday Baseline,1150.51,1397.03,-1.0436
+Previous Day Baseline,1156.76,1422.49,-1.1187
+Gradient Boosting,1267.24,1455.92,-1.2195

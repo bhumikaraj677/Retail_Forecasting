@@ -1,0 +1,39 @@
+RETAIL SALES FORECASTING PROJECT SUMMARY
+=======================================================
+
+Valid transaction rows: 1000
+Invalid rows removed: 0
+First transaction date: 2023-01-01
+Last transaction date: 2024-01-01
+Calendar days: 366
+Dates without transactions: 21
+Missing-date policy: zero
+Caution: zero-sales interpretation for missing dates has not been independently verified.
+
+Usable forecasting rows: 336
+Training rows: 268
+Testing rows: 68
+
+Selected ML model: Extra Trees
+Selected model MAE: 825.49
+Selected model RMSE: 1020.29
+Selected model R2: -0.0900
+
+MODEL COMPARISON
+                 Model     MAE    RMSE      R2
+           Extra Trees  825.49 1020.29 -0.0900
+         Random Forest  826.02 1013.88 -0.0764
+7-Day Average Baseline  891.17 1073.51 -0.2067
+ Same Weekday Baseline 1150.51 1397.03 -1.0436
+ Previous Day Baseline 1156.76 1422.49 -1.1187
+     Gradient Boosting 1267.24 1455.92 -1.2195
+
+NEXT 7 DAYS FORECAST
+      Date  Predicted Sales
+2024-01-02          1693.23
+2024-01-03          1577.19
+2024-01-04          1438.28
+2024-01-05          1984.16
+2024-01-06          1953.34
+2024-01-07          1330.51
+2024-01-08          1443.98
